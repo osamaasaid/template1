@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #2e86de;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 50px;
+}
+
+.brand {
+    width: 40%;
+    background: #576574;
+    text-align: center;
+    height: 50px;
+    font-family: 'Righteous', cursive
+}
+
+.nav {
+    width: 60%;
+    text-align: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+     text-align: center;
+}
+
+.nav ul li {
+    margin:0 0 10px 0;
+	font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
